@@ -1,0 +1,99 @@
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_ENGLAND_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Kinds>
+		<InsertOrIgnore KIND="KIND_TRAIT"/>
+	</Kinds>
+	<Civilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_ENGLAND" Name="LOC_CIVILIZATION_ENGLAND_NAME" FullName="LOC_CIVILIZATION_ENGLAND_FULLNAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Adjective="LOC_CIVILIZATION_ENGLAND_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_EX_ENGLAND" CapitalName="LOC_CITY_NAME_ENGLAND1" RandomCityNameDepth="10"/>
+	</Civilizations>
+
+	<Traits>
+		<!--Civ Traits-->
+		<Row TraitType="TRAIT_ENGLAND_ABILITY" Name="LOC_TRAIT_ENGLAND_ABILITY_NAME" Description="LOC_TRAIT_ENGLAND_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+
+		<Row TraitType="TRAIT_ENGLAND_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_ENGLAND"/>
+		<!-- espionage boosts -->
+		<Row TraitType="TRAIT_ENGLAND_ABILITY" ModifierId="MOD_ENGLAND_ESPIONAGE_EFFICIENCY"/>
+
+		<!-- speedy ships -->
+		<Row TraitType="TRAIT_ENGLAND_ABILITY" ModifierId="MOD_ENGLAND_SPEEDY_SHIPS"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" TraitType="TRAIT_EXPLORATION_CIV"/>
+
+		<Row CivilizationType="CIVILIZATION_ENGLAND" TraitType="TRAIT_ENGLAND"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" TraitType="TRAIT_ENGLAND_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+	</CivilizationTraits>
+	<RequirementSets>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_ENGLAND" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ENGLAND" RequirementId="REQ_PLAYER_HAS_TRAIT_ENGLAND"/>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ENGLAND" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+	</Requirements>
+	<RequirementArguments>
+
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ENGLAND" Name="TraitType" Value="TRAIT_ENGLAND"/>
+	</RequirementArguments>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" Civilization="CIVILIZATION_ENGLAND" Priority="2"/>
+		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_ENGLAND" Priority="2"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--ENGLAND-->
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND1"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND2"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND3"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND4"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND5"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND6"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND7"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND8"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND9"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND10"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND11"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND12"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND13"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND14"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND15"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND16"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND17"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND18"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND19"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND20"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND21"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CityName="LOC_CITY_NAME_ENGLAND22"/>
+	</CityNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" TerrainType="TERRAIN_COAST" Score="30"/>
+	</StartBiasTerrains>
+	<VisArt_CivilizationBuildingCultures>
+
+		<Row CivilizationType="CIVILIZATION_ENGLAND" BuildingCulture="BUILDING_CULTURE_NAME"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" BuildingCulture="EXP_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+
+		<Row CivilizationType="CIVILIZATION_ENGLAND" UnitCulture="Euro"/>
+	</VisArt_CivilizationUnitCultures>
+
+
+	<EndGameMovies>
+		<!--
+		<Row CivilizationType="CIVILIZATION_ENGLAND" VictoryType="MOVIE_VICTORY_EXPLORATION_SCIENCE" Priority="200" MovieType="MOVIE_VICTORY_EXPLORATION_CULTURE" />
+		-->
+	</EndGameMovies>
+</Database>

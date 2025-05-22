@@ -1,0 +1,15 @@
+<Database>
+	<NamedRiverCivilizations>
+		<InsertOrIgnore NamedRiverType="THAMES" CivilizationType="CIVILIZATION_ENGLAND"/>
+		<InsertOrIgnore NamedRiverType="LEA" CivilizationType="CIVILIZATION_ENGLAND"/>
+		<InsertOrIgnore NamedRiverType="WANDLE" CivilizationType="CIVILIZATION_ENGLAND"/>
+		<InsertOrIgnore NamedRiverType="RAVENSBOURNE" CivilizationType="CIVILIZATION_ENGLAND"/>
+	</NamedRiverCivilizations>
+	<NamedRivers>
+		<InsertOrIgnore NamedRiverType="THAMES" Name="LOC_RIVER_THAMES_NAME_ENGLAND"/>
+		<InsertOrIgnore NamedRiverType="LEA" Name="LOC_RIVER_LEA_NAME_ENGLAND"/>
+		<InsertOrIgnore NamedRiverType="WANDLE" Name="LOC_RIVER_WANDLE_NAME_ENGLAND"/>
+		<InsertOrIgnore NamedRiverType="RAVENSBOURNE" Name="LOC_RIVER_RAVENSBOURNE_NAME_ENGLAND"/>
+	</NamedRivers>
+
+</Database>

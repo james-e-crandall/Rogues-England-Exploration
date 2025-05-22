@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<!-- ENGLAND -->
+		<Row>
+			<ID>ICON_CIVILIZATION_ENGLAND</ID>
+			<Path>fs://game/rogues-civ-england/england.png</Path>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_ENGLAND</ID>
+			<Path>fs://game/rogues-civ-england/england.png</Path>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_ENGLAND</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/lsbg_norman_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_ENGLAND</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/lsbg_norman_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+		<Row>
+			<ID>BUILDING_DRYDOCK</ID>
+			<Path>blp:buildicon_wharf</Path>
+		</Row>
+		<Row>
+			<ID>BUILDING_SPICE_PORT</ID>
+			<Path>blp:buildicon_shipyard</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_ADMIRALITY_FLAGSHIP</ID>
+			<Path>blp:unitflag_treasurefleet</Path>
+		</Row>
+	</IconDefinitions>
+	<IconAliases>
+	</IconAliases>
+
+</Database>

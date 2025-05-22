@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Rivers-->
+		<Row Tag="LOC_RIVER_THAMES_NAME_ENGLAND">
+			<Text>Thames</Text>
+		</Row>
+		<Row Tag="LOC_RIVER_LEA_NAME_ENGLAND">
+			<Text>Lea</Text>
+		</Row>
+		<Row Tag="LOC_RIVER_WANDLE_NAME_ENGLAND">
+			<Text>Wandle</Text>
+		</Row>
+		<Row Tag="LOC_RIVER_RAVENSBOURNE_NAME_ENGLAND">
+			<Text>Ravensbourne</Text>
+		</Row>
+	</EnglishText>
+
+</Database>

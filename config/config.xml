@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_ENGLAND_CHARLEMAGNE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" LeaderDomain="StandardLeaders" LeaderType="LEADER_BENJAMIN_FRANKLIN" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_ENGLAND_BENJAMIN_FRANKLIN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE"/>
+	</LeaderCivilizationBias>
+	<Civilizations>
+
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" CivilizationName="LOC_CIVILIZATION_ENGLAND_NAME" CivilizationFullName="LOC_CIVILIZATION_ENGLAND_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" CivilizationIcon="civ_sym_shawnee.png"/>
+
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" Type="TRAIT_ENGLAND_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_ENGLAND_ABILITY_NAME" Description="LOC_TRAIT_ENGLAND_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" Type="UNIT_ADMIRALITY_FLAGSHIP" Kind="KIND_UNIT" Name="LOC_UNIT_ADMIRALITY_FLAGSHIP_NAME" Description="LOC_UNIT_ADMIRALITY_FLAGSHIP_DESCRIPTION" Icon="UNIT_ADMIRALITY_FLAGSHIP"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" Type="QUARTER_TRADE_COMPANY" Kind="KIND_QUARTER" Name="LOC_QUARTER_TRADE_COMPANY_NAME" Description="LOC_QUARTER_TRADE_COMPANY_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" Type="BUILDING_SPICE_PORT" Kind="KIND_BUILDING" Name="LOC_BUILDING_SPICE_PORT_NAME" Description="LOC_BUILDING_SPICE_PORT_DESCRIPTION" Icon="BUILDING_SPICE_PORT"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" Type="BUILDING_DRYDOCK" Kind="KIND_BUILDING" Name="LOC_BUILDING_DRYDOCK_NAME" Description="LOC_BUILDING_DRYDOCK_DESCRIPTION" Icon="BUILDING_DRYDOCK"/>
+	</CivilizationItems>
+
+	<CivilizationTags>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" TagType="TAG_TRAIT_MILITARISTIC"/>
+	</CivilizationTags>
+	<LeaderUnlocks>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ENGLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Icon="ICON_CIVILIZATION_ENGLAND"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_BENJAMIN_FRANKLIN" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ENGLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Icon="ICON_CIVILIZATION_ENGLAND"/>
+	</LeaderUnlocks>
+
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ENGLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Icon="ICON_CIVILIZATION_ENGLAND"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_AMERICA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_AMERICA_NAME" Description="LOC_CIVILIZATION_AMERICA_DESCRIPTION" Icon="ICON_CIVILIZATION_AMERICA"/>
+	</CivilizationUnlocks>
+</Database>

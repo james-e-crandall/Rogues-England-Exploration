@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_TRADITION"/>
+	</Kinds>
+	<Types>
+		<!-- ==================================================	-->
+		<!--	EXPLORATION							-->
+		<!-- ==================================================	-->
+		<!-- ENGLAND -->
+		<Row Type="TRADITION_COLONIAL_MIGRATION" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_MERCANTILE_EXPANSION" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_SPICE_COLONIES" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_EYES_OF_THE_QUEEN" Kind="KIND_TRADITION"/>
+	</Types>
+	<Traditions>
+		<!-- ==================================================	-->
+
+		<!--	EXPLORATION							-->
+		<!-- ==================================================	-->
+		<!-- ENGLAND -->
+		<Row TraditionType="TRADITION_COLONIAL_MIGRATION" Name="LOC_TRADITION_COLONIAL_MIGRATION_NAME" Description="LOC_TRADITION_COLONIAL_MIGRATION_DESCRIPTION" TraitType="TRAIT_ENGLAND" AgeType="AGE_EXPLORATION"/>
+		<Row TraditionType="TRADITION_MERCANTILE_EXPANSION" Name="LOC_TRADITION_MERCANTILE_EXPANSION_NAME" Description="LOC_TRADITION_MERCANTILE_EXPANSION_DESCRIPTION" TraitType="TRAIT_ENGLAND" AgeType="AGE_EXPLORATION"/>
+		<Row TraditionType="TRADITION_SPICE_COLONIES" Name="LOC_TRADITION_SPICE_COLONIES_NAME" Description="LOC_TRADITION_SPICE_COLONIES_DESCRIPTION" TraitType="TRAIT_ENGLAND" AgeType="AGE_EXPLORATION"/>
+		<Row TraditionType="TRADITION_EYES_OF_THE_QUEEN" Name="LOC_TRADITION_EYES_OF_THE_QUEEN_NAME" Description="LOC_TRADITION_EYES_OF_THE_QUEEN_DESCRIPTION" TraitType="TRAIT_ENGLAND" AgeType="AGE_EXPLORATION"/>
+
+	</Traditions>
+	<TraditionModifiers>
+		<Row TraditionType="TRADITION_COLONIAL_MIGRATION" ModifierId="COLONIAL_MIGRATION_FOOD"/>
+		<Row TraditionType="TRADITION_MERCANTILE_EXPANSION" ModifierId="MERCANTILE_EXPANSION_DIPLOMACY"/>
+		<Row TraditionType="TRADITION_SPICE_COLONIES" ModifierId="SPICE_COLONIES_YIELD_GOLD"/>
+		<Row TraditionType="TRADITION_SPICE_COLONIES" ModifierId="SPICE_COLONIES_YIELD_FOOD"/>
+		<Row TraditionType="TRADITION_EYES_OF_THE_QUEEN" ModifierId="EYES_OF_THE_QUEEN_DIPLOMACY"/>
+	</TraditionModifiers>
+</Database>

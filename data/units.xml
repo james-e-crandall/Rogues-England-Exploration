@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="UNIT_ADMIRALITY_FLAGSHIP" Kind="KIND_UNIT"/>
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_ADMIRALITY_FLAGSHIP" Name="LOC_UNIT_ADMIRALITY_FLAGSHIP_NAME" Description="LOC_UNIT_ADMIRALITY_FLAGSHIP_DESCRIPTION" BaseSightRange="4" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_COMMAND" ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CanEarnExperience="true" CostProgressionParam1="60" TraitType="TRAIT_ENGLAND" PromotionClass="PROMOTION_CLASS_NAVAL_COMMANDER"/>
+	</Units>
+	<Unit_Stats>
+		<Row UnitType="UNIT_ADMIRALITY_FLAGSHIP" Combat="30" RangedCombat="30" Bombard="30" Range="2"/>
+	</Unit_Stats>
+	<Unit_Costs>
+		<Row UnitType="UNIT_ADMIRALITY_FLAGSHIP" YieldType="YIELD_PRODUCTION" Cost="170"/>
+	</Unit_Costs>
+	<Unit_TransitionRetains>
+		<Row UnitType="UNIT_ADMIRALITY_FLAGSHIP"/>
+	</Unit_TransitionRetains>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_ADMIRALITY_FLAGSHIP" ReplacesUnitType="UNIT_FLEET_COMMANDER"/>
+	</UnitReplaces>
+	<TypeTags>
+		<!--Civ Unique Military-->
+		<Row Type="UNIT_ADMIRALITY_FLAGSHIP" Tag="UNIT_CLASS_FLEET_COMMANDER"/>
+		<Row Type="UNIT_ADMIRALITY_FLAGSHIP" Tag="UNIT_CLASS_COMMAND"/>	
+		<Row Type="UNIT_ADMIRALITY_FLAGSHIP" Tag="UNIT_CLASS_NAVAL"/>
+	</TypeTags>
+	<Unit_Advisories>
+		<Row UnitType="UNIT_ADMIRALITY_FLAGSHIP" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+	</Unit_Advisories>
+</Database>

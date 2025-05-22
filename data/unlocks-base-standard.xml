@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ENGLAND" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ENGLAND"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ENGLAND" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_UNLOCK_EXPLORATION_CIV_DESCRIPTION" Icon="CIVILIZATION_ENGLAND" CivUnlock="true"/>
+	</UnlockRewards>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CIVILIZATION_IS_ENGLAND" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_HAS_STRATEGIC_RESOURCES" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_CIVILIZATION_IS_ENGLAND" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+        <Row RequirementId="REQ_HAS_STRATEGIC_RESOURCES" RequirementType="REQUIREMENT_PLAYER_HAS_X_RESOURCES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_CIVILIZATION_IS_ENGLAND" Name="CivilizationType" Value="CIVILIZATION_ENGLAND"/>
+		<Row RequirementId="REQ_HAS_STRATEGIC_RESOURCES" Name="ResourceType" Value="RESOURCE_HORSES,RESOURCE_GOLD,RESOURCE_MARBLE,RESOURCE_IVORY,RESOURCE_IRON,RESOURCE_SILVER,RESOURCE_WINE"/>
+		<Row RequirementId="REQ_HAS_STRATEGIC_RESOURCES" Name="Count" Value="5"/>
+	</RequirementArguments>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_CIVILIZATION_IS_ENGLAND" RequirementId="REQ_CIVILIZATION_IS_ENGLAND"/>
+		<Row RequirementSetId="REQSET_HAS_STRATEGIC_RESOURCES" RequirementId="REQ_HAS_STRATEGIC_RESOURCES"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ENGLAND" RequirementSetId="REQSET_LEADER_IS_BENJAMIN_FRANKLIN" Description="LOC_UNLOCK_PLAY_AS_BENJAMIN_FRANKLIN_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_BENJAMIN_FRANKLIN_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ENGLAND" RequirementSetId="REQSET_HAS_STRATEGIC_RESOURCES" Description="LOC_UNLOCK_PLAY_AS_ENGLAND_STRATEGIC_RESOURCES_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_ENGLAND_STRATEGIC_RESOURCES_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ENGLAND" RequirementSetId="REQSET_LEADER_IS_CHARLEMAGNE" Description="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_AMERICA" RequirementSetId="REQSET_CIVILIZATION_IS_ENGLAND" Description="LOC_UNLOCK_PLAY_AS_AMERICA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_AMERICA_TOOLTIP"/>
+	</UnlockRequirements>
+
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ENGLAND" ConfigurationValue="CIVILIZATION_ENGLAND"/>
+	</UnlockConfigurationValues>
+</Database>

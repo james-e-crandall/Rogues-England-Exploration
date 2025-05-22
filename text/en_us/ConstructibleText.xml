@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Civ Unique Buildings-->
+		<Row Tag="LOC_BUILDING_SPICE_PORT_NAME">
+			<Text>Spice Port</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SPICE_PORT_DESCRIPTION">
+			<Text>+4 [icon:YIELD_GOLD] Gold. +1 [icon:YIELD_GOLD] and +1 [icon:YIELD_FOOD] in this city for each slotted resource. Must be built in the Distant Lands adjacent to a Coastal tile. Ageless</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SPICE_PORT_TOOLTIP">
+			<Text>+1 [icon:YIELD_GOLD] and +1 [icon:YIELD_FOOD] in this city for each slotted resource.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_DRYDOCK_NAME">
+			<Text>Drydock</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DRYDOCK_DESCRIPTION">
+			<Text>+5 [icon:YIELD_PRODUCTION] Production. +1 [icon:YIELD_PRODUCTION] Production for each adjacent Navigable River and Coastal tile. Must be built adjacent to a Coastal tile. Ageless</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_DRYDOCK_TOOLTIP">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_QUARTER_TRADE_COMPANY_NAME">
+			<Text>Trade Company</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_TRADE_COMPANY_DESCRIPTION">
+			<Text>English Unique Quarter. Created by building a Spice Port and Dry Dock in the same district. Grants +1 [icon:YIELD_GOLD] Gold and +1 [icon:YIELD_FOOD] Food for each coastal settlement you have.</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_TRADE_COMPANY_TOOLTIP">
+			<Text>+1 [icon:YIELD_GOLD] Gold and +1 [icon:YIELD_FOOD] Food for each coastal settlement you have.</Text>
+		</Row>
+	</EnglishText>
+</Database>

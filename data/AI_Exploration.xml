@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiListTypes>
+
+		<!-- ENGLAND -->
+		<Row ListType="English Unit Biases"/>
+		<Row ListType="English Government Bias"/>
+		<Row ListType="English Settle Plot Conditions" />
+		<Row ListType="English Constructibles Biases" />
+
+
+	</AiListTypes>
+	<AiLists>
+		<!-- ENGLAND -->
+		<Row ListType="English Unit Biases" LeaderType="TRAIT_ENGLAND" System="UnitBiases"/>
+		<Row ListType="English Government Bias" LeaderType="TRAIT_ENGLAND" System="GovernmentBiases"/>
+		<Row ListType="English Settle Plot Conditions" LeaderType="TRAIT_ENGLAND" System="SettlementPlotEvaluations"/>
+
+		<Row ListType="English Constructibles Biases" LeaderType="TRAIT_ENGLAND" System="ConstructibleBiases" />
+	</AiLists>
+	<AiFavoredItems>
+
+
+		<!-- ENGLAND -->
+		<!-- <Row ListType="English Unit Biases" Item="UNIT_KISPOKO_NENA_TO" Value="50"/>
+		<Row ListType="English Unit Biases" Item="UNIT_KISPOKO_NENA_TO_2" Value="50"/>
+		<Row ListType="English Unit Biases" Item="UNIT_KISPOKO_NENA_TO_3" Value="50"/> -->
+		<Row ListType="English Unit Biases" Item="UNIT_HEAVY_ARCHER" Value="25"/>
+		<Row ListType="English Unit Biases" Item="UNIT_CROSSBOWMAN" Value="25"/>
+		<Row ListType="English Unit Biases" Item="UNIT_ARQUEBUSIER" Value="25"/>
+
+		<Row ListType="English Government Bias" Item="GOVERNMENT_FEUDAL_MONARCHY" Value="25"/>
+
+		<Row ListType="English Settle Plot Conditions" Item="Specific Terrain" Value="50" StringVal="TERRAIN_COAST" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_TERRAIN"/>
+		<Row ListType="English Settle Plot Conditions" Item="Resource Class" Value="50" StringVal="RESOURCECLASS_EMPIRE" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_STRATEGIC_RESOURCES"/>
+
+		<!-- <Row ListType="English Constructibles Biases" Item="IMPROVEMENT_BACINO" Value="200"/> -->
+
+
+		<Row ListType="English Constructibles Biases" Item="IMPROVEMENT_FARM" Value="25"/>
+		<Row ListType="English Constructibles Biases" Item="IMPROVEMENT_CAMP" Value="25"/>
+
+
+	</AiFavoredItems>
+</Database>

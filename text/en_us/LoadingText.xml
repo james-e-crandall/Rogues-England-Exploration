@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_ENGLAND">
+			<Text>Upon the world's oceans, England forged an empire. A nation emboldened by enterprise, its mariners charted unknown waters and laid claim to distant shores. They cultivated a global trade, amassed dominion, and raised London to imperial heights, where Parliament held its sway. When rivals tested their command of the seas, they met every challenge with cannon and cunning, securing their ambitions across the globe. Though their vast empire eventually receded, its indelible legacy endures to this day.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_VO_ENGLAND">
+			<Text>The sun never sets on the British Empire. Go forth and master the tides.</Text>
+		</Row>
+	</EnglishText>
+</Database>

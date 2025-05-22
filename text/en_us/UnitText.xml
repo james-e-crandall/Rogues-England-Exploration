@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNIT_ADMIRALITY_FLAGSHIP_NAME">
+			<Text>Admiralty Flagship</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ADMIRALITY_FLAGSHIP_DESCRIPTION">
+			<Text>England Unique Fleet Commander. Can initiate combat. Benefits from bonuses that affect Naval units. Unlocks with Royal Charters.</Text>
+		</Row>
+	</EnglishText>
+</Database>

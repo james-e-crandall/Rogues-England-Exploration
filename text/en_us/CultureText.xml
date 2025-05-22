@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+		<!-- ==================================================	-->
+		<!--	ENGLAND							-->
+		<!-- ==================================================	-->
+		<Row Tag="LOC_TREE_CIVICS_EX_ENGLAND_NAME">
+			<Text>English Civics</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_COLONIAL_MIGRATION_NAME">
+			<Text>Colonial Migration</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_COLONIAL_MIGRATION_DESCRIPTION">
+			<Text>Settlement in distance lands receive +20% [icon:YIELD_FOOD] food.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_MERCANTILE_EXPANSION_NAME">
+			<Text>Mercantile Expansion</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_MERCANTILE_EXPANSION_DESCRIPTION">
+			<Text>+50% [icon:YIELD_DIPLOMACY] influence towards [B]Establish Trade Relations[/B].</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_SPICE_COLONIES_NAME">
+			<Text>Spice Colonies</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SPICE_COLONIES_DESCRIPTION">
+			<Text>Settlements receive +1 [icon:YIELD_GOLD] gold and +1 [icon:YIELD_FOOD] food for each resource they have slotted.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_EYES_OF_THE_QUEEN_NAME">
+			<Text>Eyes of the Queen</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EYES_OF_THE_QUEEN_DESCRIPTION">
+			<Text>+50% [icon:YIELD_DIPLOMACY] influence towards [B]Espionage Actions[/B].</Text>
+		</Row>
+
+	
+		<Row Tag="MOD_ENGLAND_NAVAL_UNIT_STRENGTH_DESCRIPTION">
+			<Text>+10 Combat Strength for Naval Units.</Text>
+		</Row>
+
+		<Row Tag="MOD_ENGLAND_WAR_SUPPORT_DESCRIPTION">
+			<Text>+2 war support in wars.</Text>
+		</Row>
+
+		<Row Tag="MOD_ENGLAND_SETTLER_SPEED_DESCRIPTION">
+			<Text>+1 Movement for Settlers.</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_CIVIC_ROYAL_CHARTERS_NAME">
+			<Text>Royal Charters</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_ROYAL_CHARTERS_QUOTE">
+			<Text>"There is no land that is so fully man's, that it may not also be any other man's that shall conquer it."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_ROYAL_CHARTERS_QUOTE_AUTHOR">
+			<Text>Thomas More, Utopia</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVIC_EAST_INDIA_TRADE_COMPANY_NAME">
+			<Text>East India Trade Company</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EAST_INDIA_TRADE_COMPANY_QUOTE">
+			<Text>"The Company have acted upon a principle that seems to me to be both impolitic and unjust, of endeavouring to make the largest possible profit upon their trade, without any regard to the welfare of the country."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_EAST_INDIA_TRADE_COMPANY_QUOTE_AUTHOR">
+			<Text>Adam Smith</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVIC_PAX_BRITANNIA_NAME">
+			<Text>Pax Britannia</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_PAX_BRITANNIA_QUOTE">
+			<Text>"The sun never sets on the British Empire."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_PAX_BRITANNIA_QUOTE_AUTHOR">
+			<Text>Unknown</Text>
+		</Row>
+	</EnglishText>
+</Database>

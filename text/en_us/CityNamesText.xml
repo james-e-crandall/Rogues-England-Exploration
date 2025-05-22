@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--ENGLAND-->
+		<Row Tag="LOC_CITY_NAME_ENGLAND1">
+			<Text>London</Text>
+		</Row>
+		
+		<Row Tag="LOC_CITY_NAME_ENGLAND2">
+			<Text>Manchester</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND3">
+			<Text>Liverpool</Text>
+
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND4">
+			<Text>Birmingham</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND5">
+			<Text>Bristol</Text>
+
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND6">
+			<Text>Leeds</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND7">	
+			<Text>Sheffield</Text>
+
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND8">
+			<Text>Cornwall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND9">
+			<Text>York</Text>
+
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND10">
+			<Text>Nottingham</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND11">
+			<Text>Newcastle</Text>
+
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND12">
+			<Text>Kent</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND13">
+			<Text>Leicester</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ENGLAND14">
+			<Text>Derby</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND15">
+
+			<Text>Southampton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND16">
+			<Text>Brighton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND17">
+
+			<Text>Oxford</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND18">
+			<Text>Coventry</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND19">
+
+			<Text>Salisbury</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND20">
+			<Text>Colchestor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND21">
+
+			<Text>Luton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENGLAND22">
+			<Text>Blackpool</Text>
+		</Row>
+	</EnglishText>
+
+</Database>
