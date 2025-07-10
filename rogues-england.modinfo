@@ -25,22 +25,45 @@
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
-		<Criteria id="exploration-age-ada-current">
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+		<!-- Optional compatability -->
+		<Criteria id="ada-current">
 			<ModInUse>ada-lovelace</ModInUse>
 		</Criteria>
-		<Criteria id="ada-current">
+		<Criteria id="exploration-age-ada-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 			<ModInUse>ada-lovelace</ModInUse>
 		</Criteria>
 		<Criteria id="great-britain-current">
 			<ModInUse>great-britain</ModInUse>
 		</Criteria>
-		<Criteria id="always">
-			<AlwaysMet></AlwaysMet>
-		</Criteria>
-
 	</ActionCriteria>
 	<ActionGroups>
+		<!-- Optional compatability -->
+		<ActionGroup id="rogue-civ-main-england-ada" scope="game" criteria="ada-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>ada-lovelace/unlocks-ada-lovelace.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-exploration-ada-current" scope="game" criteria="exploration-age-ada-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>ada-lovelace/civilizations-exploration-ada.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-england-great-britain" scope="game" criteria="great-britain-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>great-britain/unlocks-great-britain.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<!-- Standard compatability -->
 		<ActionGroup id="rogues-civ-england" scope="game" criteria="always">
 			<Actions>
 				<ImportFiles>
@@ -99,9 +122,8 @@
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/constructibles-no-persist.xml</Item>
 					<Item>data/loading-info-exploration.xml</Item>
-					<Item>data/progression-trees-tech.xml</Item> <!-- We'll get back to this -->
+					<Item>data/progression-trees-tech.xml</Item>
 					<Item>data/units.xml</Item>
-					<!-- <Item>data/units-gameeffects.xml</Item> -->
 					<Item>data/AI_Exploration.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
@@ -110,30 +132,6 @@
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
 				</UpdateText>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="rogue-civ-main-england-ada" scope="game" criteria="ada-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/unlocks-ada-lovelace.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="rogue-civ-main-england-great-britain" scope="game" criteria="great-britain-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/unlocks-great-britain.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="rogue-civ-exploration-ada-current" scope="game" criteria="exploration-age-ada-current">
-			<Actions>
-				<UpdateArt>
-					<Item>great-britain</Item>
-				</UpdateArt>
-				<UpdateDatabase>
-					<Item>data/civilizations-exploration-ada.xml</Item>
-				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="rogue-civ-england-shell" scope="shell" criteria="always">
@@ -154,10 +152,10 @@
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/CivilopediaText.xml</Item>			<!-- will return to this -->
+					<Item>text/en_us/CivilopediaText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/NamedPlacesText.xml</Item>
-					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
+					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
 					<Item>text/en_us/AttributesText.xml</Item>
 					<Item>text/en_us/CityNamesText.xml</Item>
