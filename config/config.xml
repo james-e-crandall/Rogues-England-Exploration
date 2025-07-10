@@ -6,7 +6,7 @@
 	</LeaderCivilizationBias>
 	<Civilizations>
 
-		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" CivilizationName="LOC_CIVILIZATION_ENGLAND_NAME" CivilizationFullName="LOC_CIVILIZATION_ENGLAND_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" CivilizationIcon="civ_sym_shawnee.png"/>
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" CivilizationName="LOC_CIVILIZATION_ENGLAND_NAME" CivilizationFullName="LOC_CIVILIZATION_ENGLAND_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" CivilizationIcon="civ_sym_england.png"/>
 
 	</Civilizations>
 	<CivilizationItems>
@@ -22,12 +22,12 @@
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" TagType="TAG_TRAIT_MILITARISTIC"/>
 	</CivilizationTags>
 	<LeaderUnlocks>
-		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ENGLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Icon="ICON_CIVILIZATION_ENGLAND"/>
-		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_BENJAMIN_FRANKLIN" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ENGLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Icon="ICON_CIVILIZATION_ENGLAND"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ENGLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Icon="CIVILIZATION_ENGLAND"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_BENJAMIN_FRANKLIN" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ENGLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Icon="CIVILIZATION_ENGLAND"/>
 	</LeaderUnlocks>
 
 	<CivilizationUnlocks>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ENGLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Icon="ICON_CIVILIZATION_ENGLAND"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_AMERICA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_AMERICA_NAME" Description="LOC_CIVILIZATION_AMERICA_DESCRIPTION" Icon="ICON_CIVILIZATION_AMERICA"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ENGLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ENGLAND_NAME" Description="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" Icon="CIVILIZATION_ENGLAND"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_AMERICA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_AMERICA_NAME" Description="LOC_CIVILIZATION_AMERICA_DESCRIPTION" Icon="CIVILIZATION_AMERICA"/>
 	</CivilizationUnlocks>
 </Database>

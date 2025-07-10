@@ -42,6 +42,13 @@
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
+		<ActionGroup id="rogue-england-ada-shell" scope="shell" criteria="ada-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>ada-lovelace/config/config-ada-lovelace.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="rogue-civ-main-england-ada" scope="game" criteria="ada-current">
 			<Actions>
 				<UpdateDatabase>
@@ -56,6 +63,13 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="great-britain-shell" scope="shell" criteria="great-britain-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>great-britain/config/unlocks-great-britain.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="rogue-civ-main-england-great-britain" scope="game" criteria="great-britain-current">
 			<Actions>
 				<UpdateDatabase>
@@ -67,10 +81,16 @@
 		<ActionGroup id="rogues-civ-england" scope="game" criteria="always">
 			<Actions>
 				<ImportFiles>
-                    <Item>assets/icon/england.png</Item>
-                    <Item>assets/icon/cult_england.png</Item>
-                    <Item>assets/icon/civ_sym_england</Item>
-					<Item>assets/icon/civ_line_england</Item>
+					<Item>assets/icons/civ_sym_england</Item>
+					<Item>assets/icons/civ_sym_england.png</Item>
+					<Item>assets/icons/civ_line_england.png</Item>
+                    <Item>assets/icons/cult_england.png</Item>
+                    <Item>assets/icons/lsbg_england_1080</Item>
+					<Item>assets/icons/lsbg_england_720</Item>
+					<Item>assets/icons/bg-panel-england.png</Item>
+					<Item>assets/icons/bg-card-england.png</Item>
+					<Item>assets/icons/bg-panel-england</Item>
+					<Item>assets/icons/bg-card-england</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -134,21 +154,26 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
+		<!-- Standard -->
 		<ActionGroup id="rogue-civ-england-shell" scope="shell" criteria="always">
 			<Actions>
 				<ImportFiles>
-                    <Item>assets/icon/england.png</Item>
-                    <Item>assets/icon/cult_england.png</Item>
-                    <Item>assets/icon/civ_sym_england</Item>
-					<Item>assets/icon/civ_line_england</Item>
+					<Item>assets/icons/civ_sym_england</Item>
+					<Item>assets/icons/civ_sym_england.png</Item>
+					<Item>assets/icons/civ_line_england.png</Item>
+                    <Item>assets/icons/cult_england.png</Item>
+                    <Item>assets/icons/lsbg_england_1080</Item>
+					<Item>assets/icons/lsbg_england_720</Item>
+					<Item>assets/icons/bg-panel-england.png</Item>
+					<Item>assets/icons/bg-card-england.png</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<Item>config/config-ada-lovelace.xml</Item>
-					<Item>config/config-great-britain.xml</Item>
+					<!-- <Item>config/config-ada-lovelace.xml</Item>
+					<Item>config/config-great-britain.xml</Item> -->
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>

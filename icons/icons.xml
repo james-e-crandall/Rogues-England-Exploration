@@ -4,24 +4,44 @@
 		<!-- ENGLAND -->
 		<Row>
 			<ID>ICON_CIVILIZATION_ENGLAND</ID>
-			<Path>fs://game/rogues-civ-england/england.png</Path>
+			<Context>DEFAULT</Context>
+			<Path>fs://game/rogues-civ-england/icons/civ_sym_england</Path>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_ENGLAND</ID>
-			<Path>fs://game/rogues-civ-england/england.png</Path>
+			<Context>DEFAULT</Context>
+			<Path>fs://game/rogues-civ-england/icons/civ_sym_england</Path>	
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_ENGLAND</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_norman_1080</Path>
+			<Path>fs://game/rogues-civ-england/assets/icons/lsbg_england_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_ENGLAND</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_norman_720</Path>
+			<Path>fs://game/rogues-civ-england/assets/icons/lsbg_england_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
+        <Row>
+            <ID>civ_line_england</ID>
+            <Path>fs://game/rogues-civ-england/icons/civ_line_england.png</Path>
+        </Row> 
+        <Row>
+            <ID>bg-panel-england</ID>
+            <Path>fs://game/rogues-civ-england/icons/bg-panel-england</Path>
+        </Row>
+        <Row>
+            <ID>bg-card-england</ID>
+            <Path>fs://game/rogues-civ-england/icons/bg-card-england</Path>
+        </Row>
+ 		<!-- Culture Tree -->
+        <Row>
+            <ID>cult_england</ID>
+            <Path>fs://game/rogues-civ-england/icons/cult_england.png</Path>
+        </Row> 
+		<!-- constructables -->
 		<Row>
 			<ID>BUILDING_DRYDOCK</ID>
 			<Path>blp:buildicon_wharf</Path>
@@ -35,7 +55,4 @@
 			<Path>blp:unitflag_treasurefleet</Path>
 		</Row>
 	</IconDefinitions>
-	<IconAliases>
-	</IconAliases>
-
 </Database>

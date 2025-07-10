@@ -33,18 +33,15 @@
 		<Row CivilizationType="CIVILIZATION_ENGLAND" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
 	</CivilizationTraits>
 	<RequirementSets>
-
 		<Row RequirementSetId="REQSET_PLAYER_IS_ENGLAND" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="REQSET_PLAYER_IS_ENGLAND" RequirementId="REQ_PLAYER_HAS_TRAIT_ENGLAND"/>
 	</RequirementSetRequirements>
-
 	<Requirements>
 		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ENGLAND" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
 	</Requirements>
 	<RequirementArguments>
-
 		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ENGLAND" Name="TraitType" Value="TRAIT_ENGLAND"/>
 	</RequirementArguments>
 	<LeaderCivPriorities>
@@ -81,19 +78,14 @@
 		<Row CivilizationType="CIVILIZATION_ENGLAND" TerrainType="TERRAIN_COAST" Score="30"/>
 	</StartBiasTerrains>
 	<VisArt_CivilizationBuildingCultures>
-
-		<Row CivilizationType="CIVILIZATION_ENGLAND" BuildingCulture="BUILDING_CULTURE_NAME"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" BuildingCulture="BUILDING_CULTURE_NEU"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" BuildingCulture="ANT_STONE"/>
 		<Row CivilizationType="CIVILIZATION_ENGLAND" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" BuildingCulture="MOD_STONE"/>
 	</VisArt_CivilizationBuildingCultures>
 	<VisArt_CivilizationUnitCultures>
-
 		<Row CivilizationType="CIVILIZATION_ENGLAND" UnitCulture="Euro"/>
 	</VisArt_CivilizationUnitCultures>
-
-
 	<EndGameMovies>
-		<!--
-		<Row CivilizationType="CIVILIZATION_ENGLAND" VictoryType="MOVIE_VICTORY_EXPLORATION_SCIENCE" Priority="200" MovieType="MOVIE_VICTORY_EXPLORATION_CULTURE" />
-		-->
 	</EndGameMovies>
 </Database>
