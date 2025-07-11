@@ -7,5 +7,8 @@
 		<Row Tag="LOC_LOADING_VO_ENGLAND">
 			<Text>The sun never sets on the British Empire. Go forth and master the tides.</Text>
 		</Row>
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_ENGLAND">
+			<Text>Send your ship to uncharted waters and bring back glory to the English.</Text>
+		</Row>
 	</EnglishText>
 </Database>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_ENGLAND" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_ENGLAND" Subtitle="LOC_LOADING_VO_ENGLAND" Audio="VO_Loading_ENGLAND" BackgroundImageHigh="fs://game/rogues-civ-england/assets/icons/lsbg_england_1080" BackgroundImageLow="fs://game/rogues-civ-england/assets/icons/lsbg_england_720" ForegroundImage="fs://game/rogues-civ-england/icons/civ_line_england.png"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_ENGLAND" Subtitle="LOC_LOADING_VO_ENGLAND" Audio="VO_Loading_ENGLAND" BackgroundImageHigh="fs://game/rogues-civ-england/assets/icons/lsbg_england_1080" BackgroundImageLow="fs://game/rogues-civ-england/assets/icons/lsbg_england_720" ForegroundImage="fs://game/rogues-civ-england/icons/civ_line_england.png"  Tip="LOC_LOADING_CIV_TIPS_TEXT_ENGLAND" />
 	</LoadingInfo_Civilizations>
 </Database>

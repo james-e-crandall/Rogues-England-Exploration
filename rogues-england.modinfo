@@ -28,49 +28,36 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
+
 		<!-- Optional compatability -->
-		<Criteria id="ada-current">
+		<Criteria all="true" id="ada-lovelace-enable">
 			<ModInUse>ada-lovelace</ModInUse>
 		</Criteria>
-		<Criteria id="exploration-age-ada-current">
+		<Criteria id="ada-lovelace-enable-exploration">
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 			<ModInUse>ada-lovelace</ModInUse>
 		</Criteria>
-		<Criteria id="great-britain-current">
+		<Criteria id="great-britain-enable">
 			<ModInUse>great-britain</ModInUse>
 		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
-		<ActionGroup id="rogue-england-ada-shell" scope="shell" criteria="ada-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>ada-lovelace/config/config-ada-lovelace.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
 		<ActionGroup id="rogue-civ-main-england-ada" scope="game" criteria="ada-current">
 			<Actions>
 				<UpdateDatabase>
 					<Item>ada-lovelace/unlocks-ada-lovelace.xml</Item>
 				</UpdateDatabase>
 			</Actions>
-		</ActionGroup>
-		<ActionGroup id="rogue-civ-exploration-ada-current" scope="game" criteria="exploration-age-ada-current">
+		</ActionGroup> 
+		<ActionGroup id="rogue-civ-exploration-ada-current" scope="game" criteria="ada-lovelace-enable-exploration">
 			<Actions>
 				<UpdateDatabase>
 					<Item>ada-lovelace/civilizations-exploration-ada.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="great-britain-shell" scope="shell" criteria="great-britain-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>great-britain/config/unlocks-great-britain.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="rogue-civ-main-england-great-britain" scope="game" criteria="great-britain-current">
+		<ActionGroup id="rogue-civ-main-england-great-britain" scope="game" criteria="great-britain-enable">
 			<Actions>
 				<UpdateDatabase>
 					<Item>great-britain/unlocks-great-britain.xml</Item>
@@ -172,8 +159,8 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<!-- <Item>config/config-ada-lovelace.xml</Item>
-					<Item>config/config-great-britain.xml</Item> -->
+					<Item>config/config-ada-lovelace.xml</Item>
+					<Item>config/config-great-britain.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>

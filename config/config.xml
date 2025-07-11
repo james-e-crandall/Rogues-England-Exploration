@@ -5,9 +5,7 @@
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" LeaderDomain="StandardLeaders" LeaderType="LEADER_BENJAMIN_FRANKLIN" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_ENGLAND_BENJAMIN_FRANKLIN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE"/>
 	</LeaderCivilizationBias>
 	<Civilizations>
-
 		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" CivilizationName="LOC_CIVILIZATION_ENGLAND_NAME" CivilizationFullName="LOC_CIVILIZATION_ENGLAND_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_ENGLAND_DESCRIPTION" CivilizationIcon="civ_sym_england.png"/>
-
 	</Civilizations>
 	<CivilizationItems>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ENGLAND" Type="TRAIT_ENGLAND_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_ENGLAND_ABILITY_NAME" Description="LOC_TRAIT_ENGLAND_ABILITY_DESCRIPTION"/>
