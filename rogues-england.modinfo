@@ -70,7 +70,6 @@
 				<ImportFiles>
 					<Item>assets/icons/civ_sym_england</Item>
 					<Item>assets/icons/civ_sym_england.png</Item>
-					<Item>assets/icons/civ_line_england.png</Item>
                     <Item>assets/icons/cult_england.png</Item>
                     <Item>assets/icons/lsbg_england_1080</Item>
 					<Item>assets/icons/lsbg_england_720</Item>
@@ -147,12 +146,13 @@
 				<ImportFiles>
 					<Item>assets/icons/civ_sym_england</Item>
 					<Item>assets/icons/civ_sym_england.png</Item>
-					<Item>assets/icons/civ_line_england.png</Item>
                     <Item>assets/icons/cult_england.png</Item>
                     <Item>assets/icons/lsbg_england_1080</Item>
 					<Item>assets/icons/lsbg_england_720</Item>
 					<Item>assets/icons/bg-panel-england.png</Item>
 					<Item>assets/icons/bg-card-england.png</Item>
+					<Item>assets/icons/bg-panel-england</Item>
+					<Item>assets/icons/bg-card-england</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
